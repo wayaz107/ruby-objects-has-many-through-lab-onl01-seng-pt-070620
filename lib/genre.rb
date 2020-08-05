@@ -11,13 +11,13 @@ def self.all
   @@all
 end
 
-def songs 
+def songs
   Song.all.select {|song|song.genre == self}
-end 
+end
 
 def artists
 songs.map {|song|song.artist}
-end 
+end
 
 
 end
