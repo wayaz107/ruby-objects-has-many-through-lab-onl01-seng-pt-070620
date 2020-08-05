@@ -1,3 +1,13 @@
 class Patient
 
-end 
+@@all = []
+
+
+def self.all
+@@all
+end
+
+
+
+
+end
