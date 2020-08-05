@@ -15,7 +15,9 @@ end
 
 def new_song(name)
   song = Genre.new(name)
+  song.artist = self
 end
+
 
 
 end
