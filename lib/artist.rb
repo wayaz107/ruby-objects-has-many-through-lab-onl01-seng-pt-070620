@@ -18,6 +18,7 @@ def new_song(name)
   song.artist = self
 end
 
-
+def songs
+end 
 
 end
