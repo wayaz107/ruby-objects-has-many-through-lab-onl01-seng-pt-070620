@@ -1,4 +1,4 @@
-class Apointment 
+class Apointment
 
 
 end 
