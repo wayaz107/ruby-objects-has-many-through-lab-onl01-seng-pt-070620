@@ -22,4 +22,9 @@ def songs
   Song.all.select {|song|song.artist == artist}
 end
 
+def genres
+  songs.map {|song|song.genre}
+end 
+
+
 end
