@@ -20,6 +20,6 @@ end
 
 def songs
   Song.all.select {|song|song.artist == artist}
-end 
+end
 
 end
